@@ -1,0 +1,65 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "figtree";
+  /* width: 1440px; */
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  width: 60vh;
+  margin-top: 40px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 4px 4px;
+}
+.container-text {
+  margin: 0 20px;
+}
+.image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.img-design {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.text-design {
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 8px;
+}
+h3,
+.text-design,
+.author-name {
+  font-weight: 950;
+  color: hsl(0, 0%, 7%);
+}
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.text {
+  font-weight: 500;
+  color: hsl(0, 0%, 42%);
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.author {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.koundja {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
